@@ -19,7 +19,7 @@ Installation
  # 1. Clone the Repository
 
 
-git clone https://github.com/your-username/budget-tracker.git
+git clone https://github.com/tinygusie2/budget-tracker.git
 cd budget-tracker
 
 
