@@ -6,6 +6,8 @@ Add Transactions: Easily log your income and expenses.
 View Transactions: See a complete list of all your transactions.
 View Balance: Automatically calculate and display your current balance.
 Update Transactions: Modify any existing transactions.
+
+
 Prerequisites
 Before you begin, ensure you have met the following requirements:
 
@@ -13,20 +15,24 @@ Python 3.7 or later installed on your system.
 Google Cloud account to create and manage API credentials.
 pip package installer.
 Installation
+
 1. Clone the Repository
-bash
+
 Copy code
 git clone https://github.com/your-username/budget-tracker.git
 cd budget-tracker
-2. Set Up a Virtual Environment (Optional but recommended)
-bash
-Copy code
+
+
+2. Set Up a Virtual Environment (Not optional but recommended)
+
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+
 3. Install Required Packages
-bash
-Copy code
 pip install -r requirements.txt
+
+
 4. Set Up Google API Credentials
 To interact with Google Sheets, you need to set up OAuth 2.0 credentials.
 
@@ -37,10 +43,12 @@ Click Create Credentials > OAuth 2.0 Client IDs.
 Set the application type to Desktop app and name it appropriately.
 Download the credentials.json file.
 Place the credentials.json file in the root directory of the project.
+
+
 5. Configure Environment Variables
 Create a .env file in the root directory with the following content:
 
-env
+
 Copy code
 GOOGLE_CLIENT_ID=your-client-id
 GOOGLE_CLIENT_SECRET=your-client-secret
@@ -61,8 +69,6 @@ Update Transaction: Update the amount or description of a specific transaction.
 Contributing
 Contributions are always welcome! Please feel free to submit a pull request or open an issue to report bugs or suggest new features.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Acknowledgements
 This project was inspired by the need for a simple, yet effective way to track personal finances using Google Sheets.
